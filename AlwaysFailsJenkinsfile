@@ -1,0 +1,5 @@
+node() {
+    stage("This will always fail") {
+        error "Boom"
+    }
+}
